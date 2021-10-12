@@ -1,0 +1,149 @@
+
+
+/**{
+	margin:  0;
+	padding: 0
+	box-sizing: border-box;
+}*/
+body{
+	/*background-color: black;*/
+	background-image: url(../bg.png);
+}
+.navsection{
+	
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+nav{
+	flex: 1;
+	text-align: left;	
+}
+nav ul{
+	display: inline-block;
+	list-style-type: none;
+}
+nav ui li{
+	display: table-column;
+	margin-left: 20px;
+}
+a{
+	text-decoration: none;
+	color: #119;
+}
+p{
+	 color: #222;
+}
+.container{
+	max-width: 10%;
+	margin: auto;
+	padding-left: 1%;
+	padding-right: 1%;
+
+}
+
+.nav-table {
+	
+    /* Позиционируем фиксированно, для смещения элементов при прокрутке */
+   position: fixed;
+    /* относительно левого края панели */
+    left:0px;
+    /* отступ от верхнего края панели */
+    top: 3.5em;
+    /* внутренние отступы */
+ 	 /*padding: 0.5em;
+ 	 padding-right: 1em;*/
+
+/*	table-layout: fixed;
+	width: 1000px;*/
+	/*font-family: 'Open Sans', sans-serif;*/
+
+
+    /* определяем цвет фона переключателя
+     * чаще вчего в соответствии с цветом фона панели
+    */
+    background-color:#16a085;
+    /* цвет текста */
+    color: #dadada;
+    /* вид курсора */
+    cursor: pointer;
+    /* размер шрифта */
+    font-size: 1.2em;
+    line-height: 1;
+    /*width: 15px;*/
+    /* всегда поверх других элементов страницы */
+    z-index: 1999;
+    /* анимируем цвет текста при наведении */
+    -webkit-transition: color .25s ease-in-out;
+    -moz-transition: color .25s ease-in-out;
+    transition: color .25s ease-in-out;
+    
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-table tr td {
+	text-align: center;
+}
+
+.menuico{
+	
+	background-color: #16a085;
+	 width: 2.08em; 
+	 height: 2.3em;/*48px;*/
+}
+
+.bgtable {
+
+	background: rgba(255, 255, 255, 0.5); 
+
+}
+
+.mainbox{
+	/*background-color: whitesmoke;	*/
+	padding-left: 1.08em; 
+	padding-right: 0.2em; 
+	/*opacity: 90%;	*/
+	/*border: 0;*/
+	
+	height: 1000px;
+	z-index: 1998;
+}
+
+.mainbox th{
+	/*border: 0;*/
+}
+
+.mainbox td {
+	/*align: "center";*/
+	background-color: whitesmoke;
+	/*text-align: center;*/
+	vertical-align: 0;
+	opacity: 100%;
+	
+	
+}
+
+.youhere {
+background-color: #4D83AE;
+width: 100%;
+}
+.youhere img {
+background-color: #4D83AE;
+}
+
+/*.layer0 {
+	position: relative;
+}
+.layer1 {
+	position: absolute;
+	top: 0;
+	width: 100%;
+}*/
+
+.texttd {
+	text-align: left;
+	padding-left: 1em;
+	padding-bottom:  1em;
+	border-bottom:1px solid #80A5BF;
+}
+
